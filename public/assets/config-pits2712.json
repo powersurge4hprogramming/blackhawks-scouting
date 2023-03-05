@@ -1,0 +1,145 @@
+{
+  "heading": "Charged Up - 2023 (Pit Scouting)",
+  "logo": "logo.png",
+  "skipTeamSelection": true,
+  "pages": [
+    {
+      "name": "Team",
+      "widgets": [
+        {
+          "name": "Team Number",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "name": "Robot",
+      "widgets": [
+        {
+          "name": "Height",
+          "type": "number"
+        },
+        {
+          "name": "Length",
+          "type": "number"
+        },
+        {
+          "name": "Width",
+          "type": "number"
+        },
+        {
+          "name": "Weight",
+          "type": "number"
+        },
+        {
+          "name": "Drivetrain",
+          "type": "dropdown",
+          "options": [
+            "Arcade",
+            "Swerve",
+            "Butterfly",
+            "Mecanum",
+            "Other"
+          ]
+        },
+        {
+          "name": "Motor Type",
+          "type": "dropdown",
+          "options": [
+            "Neo",
+            "Falcon",
+            "Cim"
+          ]
+        },
+        {
+          "name": "Drive Motor Count",
+          "type": "number"
+        },
+        {
+          "name": "Has Driver Camera",
+          "type": "checkbox"
+        }
+      ]
+    },
+    {
+      "name": "Match Play",
+      "widgets": [
+        {
+          "name": "Cycle Time",
+          "type": "number"
+        },
+        {
+          "name": "Can go over charge station",
+          "type": "checkbox"
+        },
+        {
+          "name": "Can Pick Up",
+          "type": "multicheckbox",
+          "options": [
+            "Ground Upright Cones",
+            "Ground Tipped Cones",
+            "Ground Cubes",
+            "Sub 1 (Direct)",
+            "Sub 2 High"
+          ]
+        },
+        {
+          "name": "Can Score In",
+          "type": "multicheckbox",
+          "options": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "name": "Scoring Methods",
+          "type": "multicheckbox",
+          "options": [
+            "Manual",
+            "Auto"
+          ]
+        },
+        {
+          "name": "Preferred Pickup Location",
+          "type": "dropdown",
+          "options": [
+            "Ground",
+            "Sub 1",
+            "Sub 2 Low",
+            "Sub 2 High"
+          ],
+          "defaultOption": true
+        }
+      ]
+    },
+    {
+      "name": "Endgame",
+      "widgets": [
+        {
+          "name": "Climb Speed",
+          "type": "number"
+        },
+        {
+          "name": "Preferred Location",
+          "type": "radio",
+          "options": [
+            "left",
+            "middle",
+            "right",
+            "no preference"
+          ]
+        },
+        {
+          "name": "Auto balances",
+          "type": "checkbox"
+        },
+        {
+          "name": "Comments",
+          "type": "textarea",
+          "colspan": 3
+        }
+      ]
+    }
+  ]
+}
