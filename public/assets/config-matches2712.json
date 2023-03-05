@@ -113,7 +113,9 @@
         },
         {
           "name": "Dropped",
-          "type": "spinbox"
+          "type": "spinbox",
+          "align": "center",
+          "col": 2
         },
         {
           "type": "spacer",
@@ -122,33 +124,47 @@
         {
           "name": "Scores",
           "type": "heading",
-          "align": "center"
+          "align": "center",
+          "col": 2,
+          "colspan": 2
         },
         {
           "name": "Cones High",
-          "type": "spinbox"
+          "type": "spinbox",
+          "row": 8
         },
         {
           "name": "Cubes High",
-          "type": "spinbox"
+          "type": "spinbox",
+          "col": 3,
+          "row": 8
         },
         {
           "name": "Cones Mid",
-          "type": "spinbox"
+          "type": "spinbox",
+          "row": 9
         },
         {
           "name": "Cubes Mid",
-          "type": "spinbox"
+          "type": "spinbox",
+          "col": 3,
+          "row": 9
         },
         {
           "name": "Hybrid",
           "type": "spinbox",
-          "align": "center"
+          "align": "center",
+          "col": 2
         },
         {
           "name": "Failed",
           "type": "spinbox",
-          "align": "center"
+          "align": "center",
+          "col": 2
+        },
+        {
+          "type": "spacer",
+          "height": 40
         },
         {
           "name": "Defense Rating",
